@@ -1,0 +1,34 @@
+cc --- Requirement 1: Comments ---
+cc Ei line-ti compiler porbe na
+mcc 
+   Eti ekti multi-line comment.
+   Compiler eti-o ignore korbe.
+mcc
+
+cc --- Requirement 2: Variable Declaration ---
+shongkha boyosh;
+doshomik tapmatra;
+lekha naam;
+
+cc --- Requirement 3: Input & Output ---
+
+cc 1. Input newa (poro)
+dekhaw "Tomar naam likho (lekha):";
+poro naam;
+
+dekhaw "Tomar boyosh likho (shongkha):";
+poro boyosh;
+
+dekhaw "Ajker tapmatra koto (doshomik):";
+poro tapmatra;
+
+cc 2. Output dekhano (dekhaw)
+dekhaw "--- Tomar Tottho ---";
+dekhaw "Naam:";
+dekhaw naam;
+
+dekhaw "Boyosh:";
+dekhaw boyosh;
+
+dekhaw "Tapmatra:";
+dekhaw tapmatra;
